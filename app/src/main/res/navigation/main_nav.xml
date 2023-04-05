@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/messageListFragment">
+
+    <fragment
+        android:id="@+id/messageListFragment"
+        android:name="com.example.waifunotificationapp.ui.message.MessageListFragment"
+        android:label="fragment_message_list"
+        tools:layout="@layout/fragment_message_list" />
+    <fragment
+        android:id="@+id/messageDetailFragment"
+        android:name="com.example.waifunotificationapp.ui.message.MessageDetailFragment"
+        android:label="fragment_message_detail"
+        tools:layout="@layout/fragment_message_detail" />
+    <fragment
+        android:id="@+id/characterListFragment"
+        android:name="com.example.waifunotificationapp.ui.character.CharacterListFragment"
+        android:label="fragment_character_list"
+        tools:layout="@layout/fragment_character_list" />
+    <fragment
+        android:id="@+id/characterDetailFragment"
+        android:name="com.example.waifunotificationapp.ui.character.CharacterDetailFragment"
+        android:label="fragment_character_detail"
+        tools:layout="@layout/fragment_character_detail" />
+    <fragment
+        android:id="@+id/todolistFragment"
+        android:name="com.example.waifunotificationapp.ui.todo.TodolistFragment"
+        android:label="fragment_todolist"
+        tools:layout="@layout/fragment_todolist" />
+    <fragment
+        android:id="@+id/taskDetailFragment"
+        android:name="com.example.waifunotificationapp.ui.todo.TaskDetailFragment"
+        android:label="fragment_task_detail"
+        tools:layout="@layout/fragment_task_detail" />
+    <fragment
+        android:id="@+id/taskAddFragment"
+        android:name="com.example.waifunotificationapp.ui.todo.TaskAddFragment"
+        android:label="fragment_task_add"
+        tools:layout="@layout/fragment_task_add" />
+</navigation>

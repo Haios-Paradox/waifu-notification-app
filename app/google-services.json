@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "469904902387",
+    "project_id": "waifu-notification-project",
+    "storage_bucket": "waifu-notification-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469904902387:android:3790d9c87851719e740f86",
+        "android_client_info": {
+          "package_name": "com.example.waifunotificationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469904902387-3376h89n6fp983ns7dauqh0aa9t4hkdg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqKN7ckKEGcLELJU5k2h7TMH-VzPcq5OE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469904902387-3376h89n6fp983ns7dauqh0aa9t4hkdg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
