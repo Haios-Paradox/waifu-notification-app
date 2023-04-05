@@ -11,8 +11,6 @@ Functional Requirement
 - The Ability To Create To-Do List and Have Waifu Reminds You To Do It
 - The Ability To Create Your Own Waifu
 
----
-
 Screen Requirements
 
 - Inbox Screen
